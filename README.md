@@ -5,7 +5,7 @@
 ### 1. 配置
    - 首先需要先配置kubeconfig-local文件，这个是kubectl的登陆配置，否则无法使用client-go operator来操作k8s集群。
    - 除了go 1.20的环境，你还需要配置npm，因为这个项目结合来react的前端页面，所以需要npm来编译前端页面。
-   - 配置好后，执行`make`命令，会自动编译出可执行文件`k8s-job-operator`，以及前端页面的静态文件。
+   - 配置好后，执行`make build`命令，会自动编译出可执行文件`k8s-job-operator`，以及前端页面的静态文件。
 ### 2. 运行
    - 在项目文件夹下执行 bin/k8s-job-operator http
    - 然后在浏览器访问：http://localhost:8001/
