@@ -1,0 +1,12 @@
+app_name: k8s-job-operator
+app_environment: test
+debug: true
+http_server_addr: ':8001'
+proxy_server_addr: ':10888'
+http_metrics_addr: ':23333'
+grpc_server_addr: ':50051'
+grpc_metrics_addr: ':2333'
+
+# kube
+kube_setting:
+  kubeconfig_file: "./config/kubeconfig-local"

@@ -1,0 +1,14 @@
+.my-table {
+    border: 1px solid black;
+    background-color: lightgray;
+}
+
+.success {
+    background-color: green;
+    color: white;
+}
+
+.failure {
+    background-color: red;
+    color: white;
+}
